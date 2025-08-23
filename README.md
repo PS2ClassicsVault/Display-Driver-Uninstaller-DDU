@@ -63,3 +63,7 @@ Under Additional settings, turn off "For improved security, only allow Windows H
 
 ## NOTICE:
 DDU is not maintaind by me, this is to allow users to get the lastest updates ijn the mosdt safest asnd trustedmanner in case guru3d goes offline or shutsdown forever!
+
+## VIRUS FREE VERIFICATION:
+ - [Guru3D]-DDU v18.1.3.1-DDU_Extractor.zip: https://www.virustotal.com/gui/file/84132a559b52f5ff2b7cecf391e1bd1ae28e9355cd96b2d36580c57ab8016cd0
+ - DDU.v18.1.3.1_Pre-Extracted.zip: https://www.virustotal.com/gui/file/b0e581c7d4b86293de5726e1f5c59900369764ece931fcc03c29d767657cb585
