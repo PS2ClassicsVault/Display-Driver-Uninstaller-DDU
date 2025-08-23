@@ -53,7 +53,6 @@ Requirement:
 - General: Various fixes and enhancements.
 
 ## Known issues:
--
 
 - (NOT A DDU ISSUE) With Windows 11 24H2, your PIN may not work in Safe Mode.
 Make sure you know your password and also check the following setting:
