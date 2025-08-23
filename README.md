@@ -7,14 +7,14 @@ DDU 18.1.3.1 works on a wide range of operating systems, from Windows 7 all the 
 
 One thing to watch out for isn’t a DDU bug but rather a Windows 11 24H2 behavior. If you rely solely on a PIN for logging into Windows, you may run into problems accessing Safe Mode. Windows sometimes blocks PIN login in this environment, which means you’ll need your Microsoft account password instead. To make sure this works, open Settings → Accounts → Sign-in options, and under “Additional settings,” disable the option that restricts sign-ins to Windows Hello only. It’s also important to log in at least once with your password in normal mode before attempting Safe Mode access, otherwise Windows won’t accept it.
 
-Recommended usage
+## Recommended usage
 
 The tool can be used in Normal mode but for absolute stability when using DDU, Safemode is always the best.
 Make a backup or a system restore (but it should normally be pretty safe).
 It is best to exclude the DDU folder completely from any security software to avoid issues.
 Keep note that NVIDIA/AMD did not have anything to do with this, I do not work at or for NVIDIA/AMD and they should not be held responsible for anything that may go wrong with this application.
 
-Requirement:
+## Requirement:
 
 Windows 7 up to Windows 11
 NVIDIA, AMD, Intel GPUs
@@ -36,7 +36,7 @@ It is best to exclude the DDU folder completely from any security software to av
 
 
 
-Change Info:
+## Change Info:
 Requirement:
 
 -Windows 7 up to Windows 11
@@ -44,7 +44,7 @@ Requirement:
 -Also support basic Realtek audio driver cleanup.
 -Microsoft .NET Framework 4.8 or higher
 
-Changelog:
+## Changelog (v18.1.3.1):
 
 - AMD: Added missing "DxcCache" location.
 - AMD: Additional file removals.
@@ -52,7 +52,7 @@ Changelog:
 - Translation updates: Swedish.xml.
 - General: Various fixes and enhancements.
 
-Known issues:
+## Known issues:
 -
 
 - (NOT A DDU ISSUE) With Windows 11 24H2, your PIN may not work in Safe Mode.
