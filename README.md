@@ -1,4 +1,4 @@
-# Display Driver Uninstaller DDU
+# Display Driver Uninstaller (DDU)
 Download Display Driver Uninstaller DDU (official) - The latest release of Display Driver Uninstaller (DDU), version 18.1.3.1. The popular tool Display Driver Uninstaller (DDU) has just been updated to version 18.1.3.1. This utility is widely used by PC enthusiasts and technicians for completely removing graphics drivers and related files when switching between GPUs or troubleshooting driver issues. The new release focuses on improving driver cleanup, especially for AMD hardware, and includes some important fixes for Windows configurations.
 If you have a problem installing an older driver or newer one, give it a try as there are some reports that it fix those problems. Guru3D.com is an official download partner for this handy application. We have AMD support thread over here and an NVIDIA over here. 
 
