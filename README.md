@@ -44,7 +44,7 @@ Requirement:
 -Also support basic Realtek audio driver cleanup.
 -Microsoft .NET Framework 4.8 or higher
 
-## Cahngelog (v18.1.3.5):
+## Changelog (v18.1.3.5):
 - NVIDIA: Additional folder removed in Program Files\NVIDIA Corporation
 
 ## Changelog (v18.1.3.1):
