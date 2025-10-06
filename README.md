@@ -1,5 +1,5 @@
 # Display Driver Uninstaller (DDU)
-Download Display Driver Uninstaller DDU (official) - The latest release of Display Driver Uninstaller (DDU), version 18.1.3.1. The popular tool Display Driver Uninstaller (DDU) has just been updated to version 18.1.3.1. This utility is widely used by PC enthusiasts and technicians for completely removing graphics drivers and related files when switching between GPUs or troubleshooting driver issues. The new release focuses on improving driver cleanup, especially for AMD hardware, and includes some important fixes for Windows configurations.
+Download Display Driver Uninstaller DDU (official) - The latest release of Display Driver Uninstaller (DDU), version 18.1.3.5. The popular tool Display Driver Uninstaller (DDU) has just been updated to version 18.1.3.1. This utility is widely used by PC enthusiasts and technicians for completely removing graphics drivers and related files when switching between GPUs or troubleshooting driver issues. The new release focuses on improving driver cleanup, especially for AMD hardware, and includes some important fixes for Windows configurations.
 If you have a problem installing an older driver or newer one, give it a try as there are some reports that it fix those problems. Guru3D.com is an official download partner for this handy application. We have AMD support thread over here and an NVIDIA over here. 
 
 DDU 18.1.3.1 works on a wide range of operating systems, from Windows 7 all the way to Windows 11. It supports graphics drivers from NVIDIA, AMD, and Intel, and can also handle basic Realtek audio driver cleanup. To run the program, you’ll need at least Microsoft .NET Framework 4.8 installed on your system. Once launched, DDU removes driver files, registry entries, and leftover data to ensure a clean slate before installing new drivers. The update brings a few notable changes. For AMD users, the program now handles an additional location called DxcCache, which was previously missed during cleanup. It also expands file removal to catch extra AMD-related components. Another significant improvement involves the way DDU handles Safe Mode. In previous versions, there was a risk that the system could remain stuck in a hybrid safe mode after reboot. Version 18.1.3.1 addresses this by removing the SafeBoot\Option registry entry once the reboot is triggered, helping avoid login issues. On top of that, the Swedish translation has been refreshed, and the developer has included several under-the-hood fixes to improve stability and efficiency.
@@ -44,8 +44,10 @@ Requirement:
 -Also support basic Realtek audio driver cleanup.
 -Microsoft .NET Framework 4.8 or higher
 
-## Changelog (v18.1.3.1):
+## Cahngelog (v18.1.3.5):
+- NVIDIA: Additional folder removed in Program Files\NVIDIA Corporation
 
+## Changelog (v18.1.3.1):
 - AMD: Added missing "DxcCache" location.
 - AMD: Additional file removals.
 - Removed SafeBoot\Option from the registry when DDU reboots to help prevent the system from being stuck in hybrid safe mode.
